@@ -11,21 +11,36 @@
 
 //any type
 
-let age;
+// let age;
 
-age = 30
-age = false
+// age = 30
+// age = false
 
-//array any type
+// //array any type
 
-let things: any[] = ['hello',222,null]
+// let things: any[] = ['hello',222,null]
 
-things.push({id:123})
+// things.push({id:123})
 
-//functions 
+// //functions 
 
-function hello(a:any,b:any): any {
-    return a + b
+// function hello(a:any,b:any): any {
+//     return a + b
+// }
+
+// hello(3,200.00)
+
+
+//tuples 
+
+
+//interfaces 
+
+interface Author {
+    name:string,
+    avatar:string
 }
 
-hello(3,200.00)
+const authorone: Author = {name: 'mario',avatar: '/img/mari.png'}
+
+
